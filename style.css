@@ -1,0 +1,89 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-weight: normal;
+    font-family: sans-serif;
+   
+  }
+  body {
+    background-size: cover;
+    background-position: center;
+    background:  url('assets/green.jpg');
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .contact-title {
+    color: #fff;
+    margin-top: 100px;
+    text-transform: uppercase;
+    transition:  all 4s ease-in-out;
+  }
+
+  .contact-title h1 {
+    font-size: 32px;
+    line-height: 60px;
+  }
+
+  .contact-title h2 {
+    font-size: 16px;
+   
+}
+
+.form {
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+
+.form-control {
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline:none;
+    border-bottom: 1px solid gray;
+    color:#fff;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+input {
+    height: 45px;
+}
+
+ .submit {
+    background: #ff5722;
+    border-color: transparent;
+    color:  #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+
+}
+
+.submit:hover {
+    background-color: #f44336;
+    cursor: pointer;
+}
+
+
+   
+  
